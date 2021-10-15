@@ -1,0 +1,330 @@
+*{
+    font-family:  'Poppins', sans-serif;
+}
+.container{
+    height:100vh;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 15px 10px -15px #111 ;
+}
+
+.text-1{
+    text-align: center;
+    margin:10px;
+    color: #2B2B2B;
+    letter-spacing: 0.4em;
+    margin-top:2em;
+}
+
+.menuItems{
+    display: flex;
+    padding:0 3em 0 2em;
+    margin:20px 20px 60px 20px ;
+    height:80vh;
+}
+
+.leftPart{
+   margin:0 0.6em 0 2.8em;
+
+}
+
+.image1{
+    position: relative;
+    background: url('images/Bitmap-4.jpg');
+    width:23em;
+    height:440px;
+    margin:5px;
+    border-radius:10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-left{
+    position: absolute;
+    bottom: 0;
+    height:12em;
+    background-color:#9D84B7 ;
+    opacity: 0.9;
+    color:white;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.linkTag{
+    margin-top:0.8em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightPart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foodImage{
+    position: relative;
+    width:20em;
+    height:210px;
+    margin:5px;
+    border-radius:10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image2{
+    background-image: url('images/Bitmap-3.jpg');
+}
+.image3{
+    background-image: url('images/Bitmap-1.jpg');
+}
+.image4{
+    background-image: url('images/Bitmap-2.jpg');
+}
+.image5{
+    background-image: url('images/Bitmap.jpg');
+}
+
+
+.linkTag-left{
+    border:none;
+    cursor:pointer;
+    background: none; 
+    align-items:center;
+    width:6em ;
+    display: flex; 
+    border:0.2em solid white; 
+    color:white;
+    border-radius: 2em; 
+    padding:0.2em;
+}
+
+.content-right{
+    position: absolute;
+    bottom: 0;
+    height:5em;
+    background-color:white ;
+    opacity: 0.8;
+    padding:20px;
+}
+
+.content-right h5{
+    font-size: 14px;
+    margin:1px;
+    color:black;
+}
+
+.content-right p{
+    font-size: 10px;
+    margin:1px;
+    color:black;
+}
+
+.right-linkTag{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right-linkTag-left{
+    border:none;
+    cursor:pointer;
+    background: none; 
+    align-items:center;
+    width:6em ;
+    display: flex; 
+    color:black;
+    border-radius: 2em; 
+    padding:0.2em;
+    
+}
+
+.text-2{
+    text-align: center;
+    margin:10px;
+    color: white;
+    letter-spacing: 0.4em;
+}
+
+.cuisines-container{
+    background: url('images/Mask Group.jpg');
+    padding:1em;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100%;
+    margin-top:2em;
+    position: relative;
+    margin-bottom:10em;
+}
+
+
+.cuisines-innerCards{
+    position: absolute;
+    margin-top: 15em;
+    display: flex;
+}
+
+.cuisines-innerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 25em;
+    height:12em;
+    opacity: 0.8;
+    background-color: white;
+    border-radius: 1.5em;
+    padding: 1.8rem;
+    margin: 0 1.5rem;
+    font-size: 0.7em;
+}
+
+.cuisines-innerCard h1{
+    margin-bottom:0;
+}
+
+.cuisines-innerCard:hover{
+    height:25vh;
+    opacity: 1;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.text-3{
+    text-align: center;
+    margin:10px;
+    color: black;
+    letter-spacing: 0.4em;
+
+}
+
+.topChefs-container{
+    margin:600px 0 60px auto;
+}
+
+.chefs{
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top:30px;
+}
+
+.card {  
+    max-width: 250px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin: 0 1.5rem;
+    height:12em;
+    width:15em;
+    cursor: pointer;
+}
+
+.innerImg{
+    text-align: center;
+}
+
+.intro h3{
+    text-align: center;
+    font-size: 0.8em;
+    margin-top:0.2em;
+}
+
+.intro p{
+    margin-top:0;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.socialConnect{
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.socialConnect > div{
+    border:1px solid #D5D5D5; 
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    margin:10px;
+}
+
+.socialConnect .imgg{
+    height:18px; 
+    width:18px;
+    padding:3px;
+}
+.card:hover {
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+ 
+}
+
+.card:hover .socialConnect{
+    opacity: 1;
+    text-align: center;
+}
+
+.avator {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+
+.text-4{
+    text-align: center;
+    margin:10px;
+    color: black;
+    letter-spacing: 0.4em;
+
+}
+
+.foodGuide-container{
+    background: url('images/4thFoodBanner.jpg');
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100%;
+    position: relative;
+    padding:1em;
+}
+
+.fruitsInfo {
+    max-width: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    margin: 0 1.5rem;
+}
+
+.top{
+    position: absolute;
+    top:10px;  
+}
+
+.right{ 
+    position: absolute;
+    right:10px;
+}
+
+.left{
+    position: absolute;
+    left:10px
+}
+
+.bottom{
+    position: absolute;
+    bottom:10px;
+}
