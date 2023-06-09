@@ -48,7 +48,7 @@
     height:12em;
     background-color:#9D84B7 ;
     opacity: 0.9;
-    color:white;
+    color:#ffffff;
     padding:20px;
     border-radius: 10px;
 }
@@ -214,7 +214,7 @@
 
 .card {  
     max-width: 250px;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -271,6 +271,8 @@
 .card:hover .socialConnect{
     opacity: 1;
     text-align: center;
+    transform: translateY(2%);
+    transition: 0.2s;
 }
 
 .avator {
